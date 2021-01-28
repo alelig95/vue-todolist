@@ -1,0 +1,21 @@
+.logo{
+  width: 200px;
+  display: block;
+  padding-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li{
+  border-bottom: solid 1px black;
+  width: 320px;
+  padding-bottom: 5px;
+  margin-bottom: 5px; 
+}
+
+ul li span {
+  float: left;
+  width: 300px;
+}
