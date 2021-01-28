@@ -1,17 +1,16 @@
 new Vue({
   el: '#root',
   data: {
-    list: [
-
-    ],
+    list: [ ],
     value: ''
  },
  methods : {
    submit: function () {
-     this.list.push(this.value)
+     this.list.push(this.value);
+     this.value = '';
    },
    deleteElement: function () {
-     this.list.splice(this.value, 1)
+     this.list.splice(this.value, 1);
    }
  }
  });
