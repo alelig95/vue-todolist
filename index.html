@@ -14,7 +14,7 @@
       <button type="button" name="button" @click="submit">Submit</button>
 
       <ul>
-        <li v-for="(element, index) in list"> <span>{{element}}</span> <i class="fas fa-times" @click="deleteElement"></i> </li>
+        <li v-for="(element, index) in list"> <span>{{element}}</span> <i class="fas fa-times" @click="deleteElement(index)"></i> </li>
       </ul>
     </div>
 

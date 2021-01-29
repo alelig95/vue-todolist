@@ -9,8 +9,8 @@ new Vue({
      this.list.push(this.value);
      this.value = '';
    },
-   deleteElement: function () {
-     this.list.splice(this.value, 1);
+   deleteElement: function (index) {
+     this.list.splice(index, 1);
    }
  }
  });
